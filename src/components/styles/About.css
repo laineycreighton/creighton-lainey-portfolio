@@ -1,0 +1,80 @@
+/*----------- FONTS ----------*/
+@font-face {
+    font-family: graceland;
+    src: url('../styles/fonts/Graceland.otf');
+}
+
+@font-face {
+    font-family: wildeo;
+    src: url('../styles/fonts/Wildeoo\ FREE.otf');
+}
+
+@font-face {
+    font-family: meethlake;
+    src: url('../styles/fonts/Meethlaketwo-DOagR.otf');
+}
+
+@font-face {
+    font-family: copse;
+    src: url('../styles/fonts/Copse-Regular.ttf');
+}
+
+/*----------- COLORS ----------*/
+:root {
+    --background: #F7F2E2;
+    --blue: #306990;
+    --orange: #E66E56;
+}
+
+/*----------- ABOUT ----------*/
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+}
+
+.title h1 {
+    font-family: graceland;
+    font-size: 100px;
+}
+
+.title h2 {
+    font-family: wildeo;
+    font-size: 60px;
+}
+
+.bio {
+    font-family: copse;
+    font-size: 30px;
+}
+
+/*----------- MOUNTAIN ----------*/
+.mountain-pic {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 0;
+}
