@@ -3,8 +3,8 @@ import './styles/Footer.css'
 
 export default function Footer() {
     return (
-        <div className="footer">
-            <img src={mountain} alt='mountain range' />
-        </div>
+        <footer>
+            <p className='tag'>MADE WITH <span className='passion'>Passion</span> BY LAINEY CREIGHTON</p>
+        </footer>
     )
 }

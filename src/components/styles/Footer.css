@@ -4,24 +4,44 @@
     src: url('../styles/fonts/Graceland.otf');
 }
 
+@font-face {
+    font-family: wildeo;
+    src: url('../styles/fonts/Wildeoo-FREE.otf');
+}
+
+@font-face {
+    font-family: meethlake;
+    src: url('../styles/fonts/Meethlaketwo-DOagR.otf');
+}
+
 /*----------- COLORS ----------*/
 :root {
     --background: #F7F2E2;
+    --blue: #306990;
     --orange: #E66E56;
 }
 
-/*----------- FOOTER ----------*/
-.footer {
-    background-color: var(--background);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*----------- BACKGROUND ----------*/
+footer {
+    background-image: url('./images/mountain.png');
+    background-position: top center;
+    background-size: cover;
+    height: 25vh;
     width: 100%;
     margin-bottom: 0;
+    font-family: meethlake;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+.tag {
+    margin-bottom: -20px;
+}
+
+.passion {
+    font-family: wildeo !important;
+    font-size: 60px;
 }

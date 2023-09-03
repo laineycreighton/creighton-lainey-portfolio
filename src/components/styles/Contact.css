@@ -79,7 +79,7 @@ textarea {
 }
 
 /*----------- BUTTON ----------*/
-button {
+.submit {
     padding: 5px;
     background-color: var(--blue);
     border: black solid 3px;

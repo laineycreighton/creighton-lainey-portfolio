@@ -1,0 +1,109 @@
+/*----------- FONTS ----------*/
+@font-face {
+    font-family: meethlake;
+    src: url('../styles/fonts/Meethlaketwo-DOagR.otf');
+}
+
+@font-face {
+    font-family: copse;
+    src: url('../styles/fonts/Copse-Regular.ttf');
+}
+
+/*----------- COLORS ----------*/
+:root {
+    --background: #F7F2E2;
+    --blue: #306990;
+    --orange: #E66E56;
+}
+
+/*----------- CAROUSEL ----------*/
+.project-carousel {
+    outline: red dashed 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+/*----------- CARD ----------*/
+.project-card {
+    background-image: url('./images/card.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 3px 10px saddlebrown;
+}
+
+/*----------- IMAGE ----------*/
+.img-container {
+    outline: skyblue dashed 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image {
+    outline: purple dashed 3px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+/*----------- DETAILS ----------*/
+.project-details {
+    outline: green dashed 3px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-family: meethlake;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/*----------- LINKS ----------*/
+.links {
+    outline: rgb(255, 0, 128) dashed 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.links button {
+    background-color: var(--background);
+    border: var(--blue) solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: meethlake;
+    width: 100px;
+}
+
+.links button a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 20px;
+}

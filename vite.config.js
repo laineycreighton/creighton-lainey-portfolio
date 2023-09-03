@@ -9,6 +9,7 @@ export default defineConfig({
       output: {
         title: 'Lainey Creighton | Software Developer',
       },
+      external: ['slick-carousel/slick/slick.css'],
     },
   },
 })
