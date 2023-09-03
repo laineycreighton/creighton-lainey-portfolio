@@ -30,18 +30,37 @@ footer {
     width: 100%;
     margin-bottom: 0;
     font-family: meethlake;
-    color: white;
+    color: black;
     font-size: 20px;
     display: flex;
-    justify-content:center;
-    align-items:flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
+/*----------- TAGLINE ----------*/
 .tag {
-    margin-bottom: -20px;
+    margin-bottom: -100px;
+    width: 50%;
 }
 
 .passion {
     font-family: wildeo !important;
     font-size: 60px;
+}
+
+/*----------- ICONS ----------*/
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: -40px;
+}
+
+.icons a img {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
 }
