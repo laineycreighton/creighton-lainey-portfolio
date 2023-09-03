@@ -107,3 +107,16 @@ h5 {
     color: var(--blue);
     font-size: 20px;
 }
+
+/*----------- CAROUSEL BUTTONS ----------*/
+.carousel-buttons button {
+    background-color: var(--background);
+    border: var(--orange) solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--orange);
+    font-size: 20px;
+}

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import placeholder from '../styles/images/placeholder.png'
+import placeholder from '../styles/images/placeholder.png';
+import sasquest from '../styles/images/Sasquest-Login.png';
+import endevors from '../styles/images/endevors-home.png';
+import upstream from '../styles/images/upstream-travel-home.png';
 import '../styles/Portfolio.css';
 
 //Export the Portfolio page
@@ -8,22 +11,22 @@ export default function Portfolio() {
 
     const projects = [
         {
-            title: 'Project 1',
-            image: placeholder,
-            repo: 'https://github.com/laineycreighton',
+            title: 'Sasquest',
+            image: sasquest,
+            repo: 'https://github.com/laineycreighton/sasquest',
             website: 'https://www.linkedin.com/in/lainey-creighton/'
         },
         {
-            title: 'Project 2',
-            image: placeholder,
-            repo: 'https://github.com/laineycreighton',
-            website: 'https://www.linkedin.com/in/lainey-creighton/'
+            title: 'enDEVors',
+            image: endevors,
+            repo: 'https://github.com/ssherp/EnDEVor',
+            website: 'https://endevor-3d604fa0490c.herokuapp.com/'
         },
         {
-            title: 'Project 3',
-            image: placeholder,
-            repo: 'https://github.com/laineycreighton',
-            website: 'https://www.linkedin.com/in/lainey-creighton/'
+            title: 'Upstream Travel',
+            image: upstream,
+            repo: 'https://github.com/elenagurchinskaia/upstream-travel',
+            website: 'https://elenagurchinskaia.github.io/upstream-travel/'
         },
         {
             title: 'Project 4',
