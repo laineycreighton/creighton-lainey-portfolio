@@ -1,0 +1,53 @@
+/*----------- FONTS ----------*/
+@font-face {
+    font-family: graceland;
+    src: url('../styles/fonts/Graceland.otf');
+}
+
+@font-face {
+    font-family: wildeo;
+    src: url('../styles/fonts/Wildeoo\ FREE.otf');
+}
+
+@font-face {
+    font-family: meethlake;
+    src: url('../styles/fonts/Meethlaketwo-DOagR.otf');
+}
+
+@font-face {
+    font-family: copse;
+    src: url('../styles/fonts/Copse-Regular.ttf');
+}
+
+/*----------- COLORS ----------*/
+:root {
+    --background: #F7F2E2;
+    --blue: #306990;
+    --orange: #E66E56;
+}
+
+/*----------- NAV BAR ----------*/
+.nav-bar {
+    outline: red dashed 3px;
+    background-color: var(--blue);
+    font-family: meethlake;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: var(--orange);
+}
+
+.nav-bar a:active {
+    color: var(--orange);
+}
