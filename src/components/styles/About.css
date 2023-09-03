@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: wildeo;
-    src: url('../styles/fonts/Wildeoo\ FREE.otf');
+    src: url('../styles/fonts/Wildeoo-FREE.otf');
 }
 
 @font-face {
@@ -27,13 +27,6 @@
 }
 
 /*----------- ABOUT ----------*/
-.about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .about-article {
     display: flex;
     flex-direction: row;
@@ -41,40 +34,54 @@
     align-items: center;
 }
 
+/*----------- ABOUT ----------*/
 .info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+    color: black;
+    width: 70%;
 }
 
+/*----------- NAME ----------*/
 .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
     text-align: left;
+    width: 100%;
 }
 
 .title h1 {
-    font-family: graceland;
-    font-size: 100px;
+    font-family: meethlake;
+    font-size: 150px;
+    margin-bottom: 0;
 }
 
 .title h2 {
     font-family: wildeo;
-    font-size: 60px;
+    font-size: 70px;
+    margin-top: 0;
 }
 
+/*----------- BIO ----------*/
 .bio {
     font-family: copse;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: left;
 }
 
-/*----------- MOUNTAIN ----------*/
-.mountain-pic {
+/*----------- PIC ----------*/
+.pic {
     display: flex;
     justify-content: center;
-    align-items: end;
-    margin-bottom: 0;
+    align-items: center;
+    width: 30%;
+}
+
+.pic img {
+    width: 400px;
+    height: auto;
+    border: var(--blue) solid 5px;
 }
