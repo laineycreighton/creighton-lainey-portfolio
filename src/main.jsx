@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './components/pages/About.jsx';
 // import Contact from './components/pages/Contact';
 // import Portfolio from './components/pages/Portfolio';
-// import Work from './components/pages/Work';
+import Work from './components/pages/Work.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,10 +26,10 @@ const router = createBrowserRouter([
       //   path: 'portfolio',
       //   element: <Portfolio />,
       // },
-      // {
-      //   path: 'work',
-      //   element: <Work />,
-      // },
+      {
+        path: 'work',
+        element: <Work />,
+      },
     ],
   },
 ]);

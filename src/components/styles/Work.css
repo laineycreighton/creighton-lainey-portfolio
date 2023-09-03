@@ -26,72 +26,72 @@
     --orange: #E66E56;
 }
 
-/*----------- ABOUT ----------*/
-.about-article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
+/*----------- WORK ----------*/
+.work {
+    margin: 0;
 }
 
-/*----------- ABOUT ----------*/
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
-    color: black;
-    width: 70%;
-    margin-left: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-/*----------- NAME ----------*/
-.title {
+/*----------- SKILLS ----------*/
+.skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    align-items: center;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.title h1 {
+h4 {
     font-family: meethlake;
     font-size: 150px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 20px;
+    width: 100%;
+    text-align: left;
 }
 
-.title h2 {
-    font-family: wildeo;
-    font-size: 70px;
+.skills-list {
+    list-style: none;
+    font-size: 20px;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-/*----------- BIO ----------*/
-.bio {
-    font-family: copse;
-    font-size: 25px;
+    margin-left: 20px;
+    width: 100%;
     text-align: left;
-    width: 75%;
+    line-height: 2;
 }
 
-/*----------- PIC ----------*/
-.pic {
+/*----------- RESUME ----------*/
+.resume {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.pic img {
-    width: 400px;
-    height: auto;
-    border: var(--blue) solid 5px;
+h3 {
+    font-family: meethlake;
+    padding: 10px;
+    border: var(--orange) solid 4px;
+    font-size: 40px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 a:hover {
+    color: var(--orange);
+}
+
+h3 a:active {
+    color: var(--orange);
 }

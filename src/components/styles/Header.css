@@ -28,7 +28,6 @@
 
 /*----------- NAV BAR ----------*/
 .nav-bar {
-    outline: red dashed 3px;
     background-color: var(--blue);
     font-family: meethlake;
     font-size: 30px;
