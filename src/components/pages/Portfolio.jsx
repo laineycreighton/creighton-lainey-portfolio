@@ -14,7 +14,7 @@ export default function Portfolio() {
             title: 'Sasquest',
             image: sasquest,
             repo: 'https://github.com/laineycreighton/sasquest',
-            website: 'https://www.linkedin.com/in/lainey-creighton/'
+            website: 'https://sasquest-52c8b076a68a.herokuapp.com/'
         },
         {
             title: 'enDEVors',

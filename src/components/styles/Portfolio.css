@@ -14,6 +14,7 @@
     --background: #F7F2E2;
     --blue: #306990;
     --orange: #E66E56;
+    --cardBG: url(./images/card.jpg);
 }
 
 /*----------- CAROUSEL ----------*/
@@ -27,7 +28,7 @@
 
 /*----------- CARD ----------*/
 .project-card {
-    background-image: url('./images/card.jpg');
+    background-image: var(--cardBG);
     background-position: center center;
     background-size: cover;
     width: 50%;
