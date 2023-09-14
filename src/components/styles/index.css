@@ -1,0 +1,15 @@
+/*----------- COLORS ----------*/
+:root {
+    --background: #F7F2E2;
+    --blue: #306990;
+    --orange: #E66E56;
+}
+
+/*----- ROOT -----*/
+html, body {
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+}
